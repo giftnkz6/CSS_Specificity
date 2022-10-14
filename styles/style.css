@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+    background-image: url("https://img.freepik.com/free-photo/maple-leaf-border-background-orange-watercolor-autumn-season_53876-128735.jpg?w=2000");
+}
+header{
+    display: inline-flex;
+    min-width: 100%;
+    background-color: peachpuff;
+}
+#about{
+    text-align: center;
+}
+#contact{
+    text-align: center;
+}
+h1{
+    font-size: 4em;
+}
+header .logo img{
+    width: 3em;
+}
+header .menu{
+    /* background-color: blanchedalmond; */
+    margin-left: auto;
+
+}
+
+header .menu ul li{
+    display: inline;
+    margin-left: auto;
+    padding: 10px;
+}
+#home p{
+    color: black;
+}
+a{
+
+    text-decoration: none;
+}
+
+#home img{
+    width: 40em;
+}
+/* Specificity demonstration */
+h1{
+    color: green;
+}
+
+.home{
+    /* color: blue; */
+}
+#home{
+    text-align: center;
+    /* color:brown; */
+}
